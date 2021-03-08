@@ -57,9 +57,7 @@
         text-transform: lowercase;
         color: var(--color-text);
         transition: color 0.2s linear;
-        border: 2px solid var(--color-text-offset);
-        border-radius: 50px;
-        margin: 0.3rem;
+      
 
         @include hover-focus {
             color: var(--color-text);
