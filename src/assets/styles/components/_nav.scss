@@ -30,6 +30,7 @@
         // Hover Underline
         &:hover::after {
             transform: scaleX(1);
+            font-family: ''
         }
 
         // Current Page Active Item
