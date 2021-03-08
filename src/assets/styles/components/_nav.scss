@@ -10,6 +10,7 @@
     // Nav Item LI
     &__item {
         position: relative;
+        
 
         // Underline
         &::after {
@@ -24,7 +25,7 @@
             transform: scaleX(0);
             transform-origin: 0 50%;
             transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-
+            
         }
 
         // Hover Underline
@@ -39,9 +40,11 @@
                 transform: none;
                 color: var(--color-primary) !important;
                 
+                
             }
             > a {
                 color: var(--color-text);
+                font-family: "Circular";
                 
             }
         }
@@ -59,7 +62,7 @@
         text-transform: lowercase;
         color: var(--color-text-offset);
         transition: color 0.2s linear;
-        font-family: 'Circular';
+        font-family: 'CircularLight';
       
 
         @include hover-focus {
@@ -73,7 +76,6 @@
         margin-right: 0.375rem;
         font-weight: 700;
         
-        color: var(--color-text-offset)
     }
 
     // Toggle Button

@@ -25,6 +25,9 @@
         font-family: Georgia, Times, serif;
         text-transform: uppercase;
         letter-spacing: 4px;
+        border: 2px solid;
+        border-radius: 50px;
+        padding: 0.6rem;
     }
     &__status {
         font-weight: 700;
