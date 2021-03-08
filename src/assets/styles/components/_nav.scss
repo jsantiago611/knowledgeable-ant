@@ -37,7 +37,7 @@
             &::after {
                 background-color: var(--color-primary) !important;
                 transform: none;
-                color: var(color)
+                color: var(--color)
             }
             > a {
                 color: var(--color-text);
