@@ -15,3 +15,12 @@
     src: url('/assets/fonts/lobster.woff2') format('woff2'),
         url('/assets/fonts/lobster.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Noe Display';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('/assets/fonts/FoundersGrotesk-Regular.otf') format('opentype'),
+        url('/assets/fonts/FoundersGrotesk-Regular.oft') format('opentype');
+}
