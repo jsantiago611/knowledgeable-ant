@@ -96,19 +96,5 @@
             "textOffset": "#757D84",
             "backgroundOffset": "#f2ede9"
         }
-    },
-    {
-        "id": "rainbow",
-        "name": "Rainbow Road",
-        "colors": {
-            "primary": "#49f5f7",
-            "secondary": "#01c317",
-            "text": "#feff00",
-            "border": "#d846ff",
-            "background": "#140527",
-            "primaryOffset": "#5dccf8",
-            "textOffset": "#ff464d",
-            "backgroundOffset": "#311b46"
-        }
     }
 ]
