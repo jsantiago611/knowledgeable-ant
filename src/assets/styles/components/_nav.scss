@@ -24,7 +24,7 @@
             transform: scaleX(0);
             transform-origin: 0 50%;
             transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-            
+
         }
 
         // Hover Underline
@@ -37,6 +37,7 @@
             &::after {
                 background-color: var(--color-primary) !important;
                 transform: none;
+                color: var(color)
             }
             > a {
                 color: var(--color-text);
