@@ -15,14 +15,14 @@
     },
     {
         "id": "dark",
-        "name": "Dark",
+        "name": "Spotify",
         "colors": {
             "primary": "#1ed760",
             "secondary": "#43a9a3",
             "text": "#ffffff",
             "border": "#2d2d2d",
             "background": "#0e141b",
-            "primaryOffset": "#ff2957",
+            "primaryOffset": "#4100f5",
             "textOffset": "#818a91",
             "backgroundOffset": "#252526"
         }
