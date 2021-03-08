@@ -3,8 +3,8 @@
         "id": "default",
         "name": "Classic",
         "colors": {
-            "primary": "#ff335f",
-            "secondary": "#43a9a3",
+            "primary": "#1a8917",
+            "secondary": "#ffd1b9",
             "text": "#373a3c",
             "border": "#eceeef",
             "background": "#ffffff",
