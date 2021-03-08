@@ -55,6 +55,7 @@
         text-transform: lowercase;
         color: var(--color-text);
         transition: color 0.2s linear;
+        
 
         @include hover-focus {
             color: var(--color-text);
