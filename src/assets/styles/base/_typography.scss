@@ -35,6 +35,7 @@ h3,
 
 p {
     margin: 0;
+    
 }
 
 .lead {
@@ -48,7 +49,7 @@ p {
 }
 
 .smalltitle {
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     font-family: var(--font-family-base);
     font-weight: 700;
     text-transform: uppercase;
@@ -58,6 +59,7 @@ p {
 a {
     color: var(--color-primary);
     text-decoration: none;
+    font-family: "CircularLight";
 
     @include hover-focus {
         color: var(--color-primary-offset);

@@ -15,17 +15,19 @@
     }
 
     &__title {
-        font-size: 2.5rem;
+        font-size: 4rem;
         line-height: 1;
         margin-bottom: 0.33em;
+        letter-spacing: -.05em;
 
         @include mq(md) {
-            font-size: 5.875rem; //94px
+            font-size: 5.6rem; //94px
+            letter-spacing: -.06em;
         }
     }
     &__pretitle {
         order: -1;
-        font-size: 1.1875rem; //19px
+        font-size: 1.5rem; //19px
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 1px;
@@ -57,6 +59,7 @@
 
         @include hover-focus {
             color: inherit;
+            font-size: 2rem;
         }
 
         &::after,
