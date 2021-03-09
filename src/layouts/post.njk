@@ -17,6 +17,7 @@ layout: base
                 <time class="post__date dt-published" itemprop="datePublished" datetime="{{ page.date | dateToISO }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
                 {% if tags %}
                     {% for tag in tags %}
+                    {%- if tag !== "post" -%}
                          &sdot; <a class="post__tags p-category">{{ tags | join(', ') }} href="{{ site.baseUrl }}tag/{{ tag }}"</a>
                     {% endfor %}
                 {% endif %}
