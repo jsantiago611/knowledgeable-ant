@@ -17,9 +17,9 @@ layout: base
                 <time class="post__date dt-published" itemprop="datePublished" datetime="{{ page.date | dateToISO }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
                 {% if tags %}
                     {% for tag in tags %}
-                    {%- if tag !== "post" -%}
-                        <a class="tag {{ tag | replace('.', '') }}" href="{{ site.baseUrl }}tag/{{ tag }}">{{ tag }}</a>                    {%- endif -%}
-                    {% endfor %}
+                        {%- if tag !== "post" -%}
+                            <a class="tag {{ tag | replace('.', '') }}" href="{{ site.baseUrl }}tag/{{ tag }}">{{ tag }}</a>                    {%- endif -%}
+                        {% endfor %}
                 {% endif %}
                 {% if draft %}
                 &sdot; <span class="post__status">(Draft)</span>
