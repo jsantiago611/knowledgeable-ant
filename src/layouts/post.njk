@@ -19,7 +19,7 @@ layout: base
                     {% for tag in tags %}
                     {%- if tag !== "post" -%}
                          &sdot; <a class="post__tags p-category">{{ tags | join(', ') }} href="{{ site.baseUrl }}tag/{{ tag }}"</a>
-                    
+                    {%- endif -%}
                     {% endfor %}
                 {% endif %}
                 {% if draft %}
