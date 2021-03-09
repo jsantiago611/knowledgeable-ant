@@ -34,4 +34,12 @@
         url('/assets/fonts/CircularStd-Bold.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: 'CircularBook';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('/assets/fonts/CircularStd-Book (1).otf') format('opentype'),
+        url('/assets/fonts/CircularStd-Book (1).otf') format('opentype');
+}
 
