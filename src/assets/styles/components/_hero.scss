@@ -18,6 +18,7 @@
         font-size: 9.5rem;
         line-height: 1;
         margin-bottom: 0.33em;
+        color:red;
 
         @include mq(md) {
             font-size: 4rem; //94px
