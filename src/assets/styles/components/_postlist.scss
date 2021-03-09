@@ -17,7 +17,7 @@
     }
     &__title {
         margin-bottom: 0;
-        font-family: 'CircularBold';
+        font-family: var(--font-family-display);
     }
     &__meta {
         font-size: 1.125rem;
