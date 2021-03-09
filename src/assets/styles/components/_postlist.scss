@@ -10,6 +10,7 @@
     }
     &__link {
         display: block;
+        font-family: var(--font-family-display);
 
         .postlist__item--draft & {
             color: var(--color-secondary);
