@@ -18,7 +18,7 @@ layout: base
                 {% if tags %}
                     {% for tag in tags %}
                         {%- if tag !== "post" -%}
-                            <a class="tag {{ tag | replace('.', '') }}" href="{{ site.Url }}tag/{{ tag }}">{{ tag }}</a>                    
+                            <a class="tag {{ tag | replace('.', '') }}" href="{{ baseSite.Url }}tag/{{ tag }}">{{ tag }}</a>                    
                         {%- endif -%}
                     {% endfor %}
                 {% endif %}
