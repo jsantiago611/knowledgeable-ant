@@ -86,7 +86,7 @@ $featuredposts-gap: 3rem;
     &__inner {
         @include coverall;
         overflow: hidden;
-        border-radius: 0.5rem;
+        border-radius: 50px;
         color: #fff;
         padding: 1rem;
         background-image: linear-gradient(
