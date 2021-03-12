@@ -8,7 +8,7 @@ excludeFromSitemap: true
         "id": {{ loop.revindex }},
         "date": "{{ note.date | dateToISO }}",
         "url": "{{ note.url | url | absoluteUrl(site.url) }}",
-        "content": "{{ note.templateContent | excerpt | safe | striptags }}",
+        "content": "{{ note.templateContent | excerpt | safe  }}",
         "link": "{{ note.data.link }}",
         "tags": "{{ note.data.tags }}",
         "syndicate": {{ note.data.syndicate | string }}
