@@ -65,7 +65,7 @@ $featuredposts-gap: 3rem;
     display: block;
     height: 300px;
     position: relative;
-    border-radius: 0.5rem;
+    border-radius: 50px;
     overflow: hidden;
     background-color: var(--color-bg-offset);
     box-shadow: 14px 14px 60px -10px rgba(0, 0, 0, 0.3);
@@ -86,7 +86,7 @@ $featuredposts-gap: 3rem;
     &__inner {
         @include coverall;
         overflow: hidden;
-        border-radius: 0.5rem;
+        border-radius: 50px;
         color: #fff;
         padding: 1rem;
         background-image: linear-gradient(
