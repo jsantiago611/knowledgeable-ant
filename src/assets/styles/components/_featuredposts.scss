@@ -71,7 +71,7 @@ $featuredposts-gap: 3rem;
     box-shadow: 14px 14px 60px -10px rgba(0, 0, 0, 0.3);
 
     &__image {
-        @include 
+        @include coverall;
         display: block;
         width: 100%;
         height: 100%;
