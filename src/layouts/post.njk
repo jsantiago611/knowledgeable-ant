@@ -18,7 +18,7 @@ layout: base
                 {% if tags %}
                     {% for tag in tags %}
                         {%- if tag !== "post" -%}
-                            <a class="tag {{ tag | replace('.', '') }}" href="{{ 'https://knowledgeable-ant-63ad5.netlify.app/' }}tag/{{ tag }}">{{ tag }}</a>                    
+                            <a class="tag {{ tag | replace('.', '') }}" href="{{ 'https://knowledgeable-ant-63ad5.netlify.app/' }}/{{ tag }}">{{ tag }}</a>                    
                         {%- endif -%}
                     {% endfor %}
                 {% endif %}
