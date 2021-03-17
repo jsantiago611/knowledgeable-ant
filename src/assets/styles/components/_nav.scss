@@ -31,7 +31,6 @@
         // Hover Underline
         &:hover::after {
             transform: scaleX(1);
-            text-transform: capitalize;
         }
 
         // Current Page Active Item
