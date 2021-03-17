@@ -10,18 +10,20 @@
     // Nav Item LI
     &__item {
         position: relative;
+        text-transform: capitalize;
+
         
 
         // Underline
         &::after {
             content: '';
             display: block;
-            height: 5px;
+            height: 2px;
             background-color: var(--color-border);
             position: absolute;
-            left: 1.25rem;
-            right: 1.25rem;
-            bottom: -5px;
+            left: 1.65rem;
+            right: 1.65rem;
+            bottom: 2px;
             transform: scaleX(0);
             transform-origin: 0 50%;
             transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
@@ -39,8 +41,7 @@
                 background-color: var(--color-primary) !important;
                 transform: none;
                 color: var(--color-primary) !important;
-                
-                
+                                
             }
             > a {
                 color: var(--color-text);
@@ -59,12 +60,12 @@
         padding: 0.75rem 1.25rem;
         line-height: 1;
         white-space: nowrap;
-        
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
         color: var(--color-text-offset);
         transition: color 0.2s linear;
         font-family: var(--font-family-base);
-      
-
+        
         @include hover-focus {
             color: var(--color-text);
         }
