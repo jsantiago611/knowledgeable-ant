@@ -63,7 +63,7 @@
         color: var(--color-text-offset);
         transition: color 0.2s linear;
         font-family: var(--font-family-base);
-        text-transform: capitalize;
+        
 
         @include hover-focus {
             color: var(--color-text);
