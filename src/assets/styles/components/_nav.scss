@@ -64,7 +64,6 @@
         transition: color 0.2s linear;
         font-family: var(--font-family-base);
         
-
         @include hover-focus {
             color: var(--color-text);
         }
