@@ -35,7 +35,7 @@
             "secondary": "#bae8e8",
             "text": "#272343",
             "border": "#e3f6f5",
-            "background": "#fffffe",
+            "background": "#000",
             "primaryOffset": "#ffca00",
             "textOffset": "#2d334a",
             "backgroundOffset": "#e3f6f5"
