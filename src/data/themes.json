@@ -33,7 +33,7 @@
         "colors": {
             "primary": "#9146ff", 
             "secondary": "#9146ff",
-            "text": "##fff",
+            "text": "#fff",
             "border": "#e3f6f5",
             "background": "#000",
             "primaryOffset": "#ffca00",
