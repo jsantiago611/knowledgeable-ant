@@ -32,7 +32,7 @@
         "name": "Twitch",
         "colors": {
             "primary": "#9146ff", 
-            "secondary": "#bae8e8",
+            "secondary": "#9146ff",
             "text": "##fff",
             "border": "#e3f6f5",
             "background": "#000",
