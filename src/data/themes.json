@@ -31,7 +31,7 @@
         "id": "beach",
         "name": "Twitch",
         "colors": {
-            "primary": "#9146ff", 
+            "primary": "#000", 
             "secondary": "#9146ff",
             "text": "#fff",
             "border": "#9146ff",
