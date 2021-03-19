@@ -37,7 +37,7 @@
             "border": "#9146ff",
             "background": "#000",
             "primaryOffset": "#cccce2",
-            "textOffset": "#2d334a",
+            "textOffset": "#cccce2",
             "backgroundOffset": "#e3f6f5"
         }
     },
