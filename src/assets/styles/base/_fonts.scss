@@ -49,7 +49,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url('/assets/fonts/FoundersGrotesk-Regular.otf') format('woof2'),
-        url('/assets/fonts/FoundersGrotesk-Regular.otf') format('woff');
+    src: url('/assets/fonts/FoundersGrotesk-Regular.otf') format('opentype'),
+        url('/assets/fonts/FoundersGrotesk-Regular.otf') format('opentype');
     letter-spacing: 0.1em;
 }
