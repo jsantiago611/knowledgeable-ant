@@ -22,7 +22,7 @@
         font-family: var(--font-family-display);
        
         @include mq(md) {
-            font-size: 5.6rem; //94px
+            font-size: 5rem; //94px
             letter-spacing: -.03em;
             
         }
