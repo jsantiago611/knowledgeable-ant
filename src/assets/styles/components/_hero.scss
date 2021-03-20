@@ -15,15 +15,15 @@
     }
 
     &__title {
-        font-size: 4rem;
+        font-size: 3.6rem;
         line-height: 1;
         margin-bottom: 0.5em;
-        letter-spacing: -.03em;
+        letter-spacing: -.02em;
         font-family: var(--font-family-display);
        
         @include mq(md) {
-            font-size: 5.6rem; //94px
-            letter-spacing: -.03em;
+            font-size: 5rem; //94px
+            letter-spacing: -.02em;
             
         }
     }
