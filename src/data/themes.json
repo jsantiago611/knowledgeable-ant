@@ -29,16 +29,16 @@
     },
     {
         "id": "beach",
-        "name": "Koopa Beach",
+        "name": "Twitch",
         "colors": {
-            "primary": "#ff9d00",
-            "secondary": "#bae8e8",
-            "text": "#272343",
-            "border": "#e3f6f5",
-            "background": "#fffffe",
-            "primaryOffset": "#ffca00",
-            "textOffset": "#2d334a",
-            "backgroundOffset": "#e3f6f5"
+            "primary": "#000", 
+            "secondary": "#9146ff",
+            "text": "#fff",
+            "border": "#00FAFA",
+            "background": "#9146ff",
+            "primaryOffset": "#cccce2",
+            "textOffset": "#cccce2",
+            "backgroundOffset": "#000"
         }
     },
     {
@@ -81,20 +81,6 @@
             "primaryOffset": "#e068fd",
             "textOffset": "#94a1b2",
             "backgroundOffset": "#29293e"
-        }
-    },
-    {
-        "id": "yoshi",
-        "name": "Yoshi Valley",
-        "colors": {
-            "primary": "#99C221",
-            "secondary": "#E55812",
-            "text": "#41474C",
-            "border": "#e8e0d9",
-            "background": "#fafbf5",
-            "primaryOffset": "#6E910A",
-            "textOffset": "#757D84",
-            "backgroundOffset": "#f2ede9"
         }
     }
 ]

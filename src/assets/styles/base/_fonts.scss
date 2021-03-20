@@ -1,13 +1,4 @@
 @font-face {
-    font-family: 'Noe Display';
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
-    src: url('/assets/fonts/noe-display-medium.woff') format('woff'),
-        url('/assets/fonts/noe-display-medium.woff') format('woff2');
-}
-
-@font-face {
     font-family: 'CircularLight';
     font-style: normal;
     font-display: auto;
@@ -43,3 +34,21 @@
         url('/assets/fonts/CircularStd-Book (1).otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Roobert';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('/assets/fonts/Roobert-SemiBold.woff2') format('woof2'),
+        url('/assets/fonts/Roobert-SemiBold.woff') format('woff');
+    letter-spacing: 0.1em;
+}
+
+@font-face {
+    font-family: 'Founders';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('/assets/fonts/FoundersGrotesk-Regular.otf') format('opentype'),
+        url('/assets/fonts/FoundersGrotesk-Regular.otf') format('opentype');
+}
