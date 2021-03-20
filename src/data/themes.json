@@ -83,18 +83,4 @@
             "backgroundOffset": "#29293e"
         }
     },
-    {
-        "id": "yoshi",
-        "name": "Yoshi Valley",
-        "colors": {
-            "primary": "#99C221",
-            "secondary": "#E55812",
-            "text": "#41474C",
-            "border": "#e8e0d9",
-            "background": "#fafbf5",
-            "primaryOffset": "#6E910A",
-            "textOffset": "#757D84",
-            "backgroundOffset": "#f2ede9"
-        }
-    }
 ]
